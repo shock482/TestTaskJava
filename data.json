@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "name": "C",
+      "shortestPath": [],
+      "distance": 2147483647,
+      "adjacentNodes": {
+        "Node@5e025e70": 10
+      }
+    },
+    {
+      "name": "E",
+      "shortestPath": [
+        {
+          "name": "B",
+          "shortestPath": [],
+          "distance": 0,
+          "adjacentNodes": {
+            "Node@11531931": 15,
+            "Node@4563e9ab": 12
+          }
+        },
+        {
+          "name": "D",
+          "shortestPath": [
+            {
+              "name": "B",
+              "shortestPath": [],
+              "distance": 0,
+              "adjacentNodes": {
+                "Node@11531931": 15,
+                "Node@4563e9ab": 12
+              }
+            }
+          ],
+          "distance": 12,
+          "adjacentNodes": {
+            "Node@5e025e70": 2,
+            "Node@11531931": 1
+          }
+        }
+      ],
+      "distance": 14,
+      "adjacentNodes": {}
+    },
+    {
+      "name": "F",
+      "shortestPath": [
+        {
+          "name": "B",
+          "shortestPath": [],
+          "distance": 0,
+          "adjacentNodes": {
+            "Node@11531931": 15,
+            "Node@4563e9ab": 12
+          }
+        },
+        {
+          "name": "D",
+          "shortestPath": [
+            {
+              "name": "B",
+              "shortestPath": [],
+              "distance": 0,
+              "adjacentNodes": {
+                "Node@11531931": 15,
+                "Node@4563e9ab": 12
+              }
+            }
+          ],
+          "distance": 12,
+          "adjacentNodes": {
+            "Node@5e025e70": 2,
+            "Node@11531931": 1
+          }
+        }
+      ],
+      "distance": 13,
+      "adjacentNodes": {
+        "Node@5e025e70": 5
+      }
+    },
+    {
+      "name": "B",
+      "shortestPath": [],
+      "distance": 0,
+      "adjacentNodes": {
+        "Node@11531931": 15,
+        "Node@4563e9ab": 12
+      }
+    },
+    {
+      "name": "D",
+      "shortestPath": [
+        {
+          "name": "B",
+          "shortestPath": [],
+          "distance": 0,
+          "adjacentNodes": {
+            "Node@11531931": 15,
+            "Node@4563e9ab": 12
+          }
+        }
+      ],
+      "distance": 12,
+      "adjacentNodes": {
+        "Node@5e025e70": 2,
+        "Node@11531931": 1
+      }
+    },
+    {
+      "name": "A",
+      "shortestPath": [],
+      "distance": 2147483647,
+      "adjacentNodes": {
+        "Node@19bb089b": 15,
+        "Node@71c7db30": 10
+      }
+    }
+  ]
+}
